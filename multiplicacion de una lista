@@ -1,0 +1,9 @@
+B=[1,2,3,4,5]
+
+def multiplicacion(A):
+    multi = 1
+    for i in A:
+        multi = multi * i
+    return multi
+
+print(multiplicacion(B))
